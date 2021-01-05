@@ -1,0 +1,42 @@
+div {
+  border: 3px solid red;
+  background: green;
+  margin-top: 20px;
+  position: relative;
+}
+
+.one {
+  background: blue;
+}
+.two {
+  background: red;
+}
+.special {
+  background: yellow;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+<body>
+ <div>
+  <p class="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sit rem aspernatur beatae nemo alias maiores rerum dolorem accusamus numquam eius eligendi sequi repellat iste natus, autem reprehenderit ullam voluptas voluptatem odit adipisci? Minima, hic consectetur?</p>
+
+  <p class="two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sit rem aspernatur beatae nemo alias
+   maiores rerum dolorem accusamus numquam eius eligendi sequi repellat iste natus, autem reprehenderit ullam voluptas
+   voluptatem odit adipisci? Minima, hic consectetur?
+  <span class="special">I'm absolute</span></p>
+
+ </div>
+
+</body>
+</html>

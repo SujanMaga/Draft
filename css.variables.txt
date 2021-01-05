@@ -1,0 +1,57 @@
+/* .heading {
+  color: green;
+}
+.text {
+  color: purple;
+}
+.main-text {
+  color: red;
+}
+.second-heading {
+  color: yellow;
+}
+ */
+:root {
+  --primaryColor: #1313fa;
+  --secondaryColor: #f15025;
+  --mainTransition: all 0.5s linear;
+}
+.heading {
+  color: var(--primaryColor);
+}
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
+div {
+  --primaryRed: red;
+}
+.main-text {
+  color: var(--primaryRed);
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+<body>
+  <h1 class="heading"> main heading</h1>
+  <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores eos perferendis debitis ratione impedit minus quas veniam molestiae laborum hic!</p>
+  <div class="main">
+    <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nihil maiores dolorum voluptatem expedita mollitia laboriosam. Id, iste. Maxime, optio.</p>
+  </div>
+  <h3 class="second-heading">
+    another heading
+  </h3>
+  <h3 class="third-heading">
+    another heading
+  </h3>
+</body>
+</html>

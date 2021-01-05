@@ -1,0 +1,53 @@
+div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.transtion {
+  background: green;
+  transition: all 2s linear;
+}
+.transtion:hover {
+  background: red;
+  transform: translateX(100px);
+}
+.animation {
+  background: yellow;
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2; */
+  animation: move 10s 2;
+}
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+    background: purple;
+  }
+  50% {
+    transform: translateX(100px);
+    background: green;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: grey;
+  }
+  100% {
+    transform: translateX(20px);
+    background: aqua;
+  }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+<body>
+  <div class="transtion">transtion</div>
+  <div class="animation">animation</div>
+
+</body>
+</html>

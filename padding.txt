@@ -1,0 +1,31 @@
+h1 {
+  background-color: red;
+  /* padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-right: 50px; */
+  padding-left: 600px;
+}
+p {
+  background-color: green;
+  /* padding: 50px; */
+  /* padding: 30px 60px; */
+  padding: 20px 40px 60px 90px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+
+
+<body>
+ <h1>Hello I am Sujan Magar. Box model</h1>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae quae quo facere ullam placeat, cupiditate commodi optio. Tempora, nulla?</p>
+ 
+</body>
+</html>

@@ -1,0 +1,38 @@
+.buttons {
+  margin: 3rem;
+}
+a {
+  background: red;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: blue;
+  text-transform: uppercase;
+  margin: 0 20px;
+  cursor: pointer;
+}
+#one {
+  border: 0.2rem solid green;
+}
+#two {
+  outline-width: 0.2rem;
+  outline-style: solid;
+  outline-color: green;
+  outline-offset: 10px;
+  outline-offset: -10px;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+<div class="buttons">
+ <a href="#" id='one' >no outline</a>
+ <a href="#" id='two' >outline</a>
+</div>
+</body>
+</html>

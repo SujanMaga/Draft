@@ -1,0 +1,38 @@
+div {
+  background-color: red;
+  margin: 10px;
+  color: white;
+}
+.none {
+  display: none;
+}
+.opacity-1 {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.visibility {
+  visibility: hidden;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+<body>
+ <div class="none">none</div>
+ <div class="opacity-1">opacity-1</div>
+ <div class="opacity-5">opacity-5</div>
+ <div class="opacity-0">opacity-0</div>
+ <div class="visibility">visibility</div>
+
+</body>
+</html>

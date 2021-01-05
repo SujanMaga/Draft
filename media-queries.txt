@@ -1,0 +1,55 @@
+body {
+  background: green;
+}
+
+.banner {
+  background: red;
+  border-radius: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: blue;
+  }
+  .banner {
+    background: red;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+<body>
+ <div class="banner">
+  <h1>Hello World I'm learning Cascading Style Sheets</h1>
+ </div>
+</body>
+</html>

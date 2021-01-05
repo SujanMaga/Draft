@@ -1,0 +1,42 @@
+a {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.one {
+  line-height: 1.5em;
+}
+.two {
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height: 2rem;
+}
+.three {
+  word-spacing: 10px;
+  text-decoration: underline;
+}
+h1 {
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <title>Css Tutorial</title>
+</head>
+<a href="#">Google</a>
+<h1>Heyyyyyyyyyyyyyy</h1>
+<p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laboriosam suscipit et asperiores eligendi repudiandae velit eius minima? Quos facere labore unde rem dignissimos animi quisquam impedit voluptatem dolorem?</p>
+<p class="two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium pariatur id quae facere eius autem.</p>
+<p class="three">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem cupiditate quaerat magni quasi nobis quis, sunt ullam dolore expedita molestiae velit maiores! Sequi atque ipsam necessitatibus, illum voluptate amet pariatur inventore explicabo. Veritatis perspiciatis ullam, unde aperiam fugiat rerum possimus beatae magnam itaque ad dolorum amet quod ratione reiciendis est.</p>
+
+<body>
+ 
+</body>
+</html>
